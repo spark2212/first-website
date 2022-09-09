@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="layout.css">
+        <title>My First HTML Website</title>
+    </head>
+    <body>
+        <ul class="menuBar">
+            <li><a title="About Me" href="index-page-1.html">Page 1</a></li>
+            <li><a title="About You?" href="index-page-2.html">Page 2</a></li>
+            <li><a title="Hobbies and Coding Combine: Sports, Chess, Music, and More" href="index-page-3.html">Page 3</a></li>
+            <li><a title="My Favorite Photos" href="index-page-4.html">Page 4</a></li>
+        </ul>
+
+        <div id="page2">
+            <fieldset>
+                <legend>About You?</legend>
+                <form>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="hobby">Favorite Hobby:</label>
+                    <input type="text" id="hobby" name="hobby">
+
+                    <label for="likeSports">Check this box if you like sports</label>
+                    <input type="checkbox" id="likeSports" name="likeSports">
+
+                    <label for="fruity">If you were a fruit, what fruit would you be and why?</label>
+                    <textarea id="fruity" rows="6" cols="15"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>
