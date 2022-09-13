@@ -1,0 +1,95 @@
+html {
+    background-color: #C0C0FF;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.menuBar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid rgba(255, 119, 0, 0.8);
+    border-bottom: 2px solid rgba(255, 119, 0, 0.8);
+}
+
+.menuBar a:link {
+    text-decoration: none;
+    color: rgba(255, 119, 0, 0.8);
+}
+
+.menuBar a:visited {
+    text-decoration: none;
+    color: rgba(255, 119, 0, 0.8);
+}
+
+.menuBar a:hover {
+    color: orange;
+}
+
+.menuBar a:active {
+    color: blue;
+}
+
+.ppg img {
+    height: 200pt;
+}
+
+.sameLine {
+    display: grid;
+    grid-template: 25pt 15pt 300pt / 22% 23% 5% 50%;
+}
+
+.sameLine .left {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.sameLine .one {
+    grid-area: 3 / 1 / span 1 / span 1;
+}
+
+.sameLine .two {
+    grid-area: 2 / 2 / span 1 / span 1;
+}
+
+.sameLine .right {
+    grid-area: 1 / 4 / span 1 / span 1;
+}
+
+.sameLine .three {
+    grid-area: 2 / 4 / span 2 / 4;
+}
+
+.gridMe {
+    display: grid;
+    grid-template: 25pt 1fr 1fr / 50% 50%;
+    column-gap: 5%;
+}
+
+.gridMe h2 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.gridMe .vertical {
+    grid-area: 2 / 1 / span 3 / span 1;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridMe .drawRef{
+    grid-area: 2 / 2 / span 1 / span 1;
+}
+
+.gridMe .drawRef2 {
+    grid-area: 3 / 2 / span 1 / span 1;
+}
+
+.drawing, .drawing2 {
+    margin-top: 15pt;
+    max-width: 85%;
+}
