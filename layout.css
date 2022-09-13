@@ -161,3 +161,44 @@ form .rightLabel {
 
 
 /* Page 4 rules */
+#page4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#page4 .page4Headers {
+    margin-top: -1%;
+}
+
+.row1, .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row1 {
+    padding-bottom: -3px;
+}
+
+.row2 {
+    padding-top: 20px;
+}
+
+#page4 img {
+    width: 220pt;
+    padding-inline: 5px;
+}
+
+/* div > span > a > img {
+
+} */
+
+div > span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300pt;
+}
